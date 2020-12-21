@@ -1,0 +1,21 @@
+ <div class="banbox">
+      <div class="banner">
+        <div id="banner" class="fader">
+            {% for b in banners %}
+             <li class="slide">
+                    <a href="api/{{ b.pk }}" target="_self" title="{{ b.title }}">
+                        <img src="{{ b.image_url }}" alt="图片丢失">
+                    </a>
+                </li>
+
+            {% endfor %}
+          <div class="fader_controls">
+            <div class="page prev" data-target="prev"></div>
+            <div class="page next" data-target="next"></div>
+            <ul class="pager_list">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+

@@ -1,0 +1,16 @@
+<!--headline begin-->
+{# 轮播图旁边的两个小窗 #}
+<div class="headline">
+    <ul>
+        {% for art in headlines %}
+            <li>
+                <a href="api/{{ art.pk }}" title="{{ art.title }}">
+                    <img src="{{ art.cover }}" alt="{{ art.title }}">
+                    <span>{{ art.title }}</span>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+<!--headline end-->
+

@@ -1,0 +1,416 @@
+
+<!DOCTYPE html>
+<html lang="zh en">
+{% load static %}
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="shortcut icon" href="{% static 'image/favicon.ico' %}"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="baidu-site-verification" content="8VnRCQnw7Z"/>
+
+    <meta name="shenma-site-verification" content="ed5d4e80c572827fbe7613c32ef4c1be_1561717247"/>
+
+    <meta name="360-site-verification" content="37c5d131d288d26f5091b1f25eb28c48"/>
+
+    <meta name="sogou_site_verification" content="FxLjWABP4A"/>
+
+    <meta name="msvalidate.01" content="725274B06FEC1DAE34DA835E37A6D5D5"/>
+
+    <meta name="google-site-verification" content="C2ujkHLAjxkyD2SXrnXNeoZum0YsZcl832GvR3XBTw4"/>
+
+    <title>{{ page.title }}</title>
+    <meta name="keywords" content="{{ page.keywords }}">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/m_01.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/m_02.css' %}">
+    <link rel="stylesheet" href="../../static/css/font-awesome.min.css">
+</head>
+
+<body>
+<div class="wrapper" id="wrapper">
+    <header>
+        <!--    轮播图    -->
+        <div class="banner row" id="banner">
+            <!--     background img       -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd slides-container" style="height:100%">
+            {% for i in banners %}
+                <div class="slide">
+                    <img src="{{ i.image_url }}" width="1920" height="1080" alt="">
+                </div>
+        {% endfor %}
+
+
+            </div>
+            <!--      轮播图文字部分      -->
+            <div class="bannerText container">
+                <h1>我叫lanyu(张志刚)</h1>
+                <p>后端开发工程师，毕业于<a href="https://www.csust.edu.cn/" target="_blank">长沙理工学院</a>，2019.04~至今在<a href="https://www.tanzhouedu.com/" target="_blank">潭州教育</a>工作。</p>
+                <a href="#aboutme" class="mbnt">关于我</a>
+            </div>
+        </div>
+        <!--  菜单条  -->
+        <div class="menu">
+            <div class="navbar-wrapper">
+                <div class="container">
+                    <div class="navwrapper">
+                        <div class="navbar navbar-inverse navbar-static-top">
+                            <div class="container">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                            data-target=".navbar-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand" href="#">导航</a>
+                                </div>
+                                <div class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav nav-justified">
+                                        <li class="first menuItem homeLink active">
+                                            <a href="#wrapper">首页</a>
+                                        </li>
+                                        <li class="menuItem">
+                                            <a href="#aboutme">关于我</a>
+                                        </li>
+                                        <li class="menuItem">
+                                            <a href="#technical">技能</a>
+                                        </li>
+                                        <li class="menuItem">
+                                            <a href="#exprience">经历</a>
+                                        </li>
+                                        <li class="menuItem">
+                                            <a href="#reffernces">项目</a>
+                                        </li>
+                                        <li class="menuItem">
+                                            <a href="#contact">联系我</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--   关于我   -->
+    <section class="aboutme" id="aboutme">
+        <div class="container">
+            <div class="row">
+                <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 aboutCont">
+                    <div class="heading clearfix">
+                        <h2>关于我</h2>
+                    </div>
+                    <div id="description">
+                        <!--描述-->
+                        {{ info|safe }}
+
+                    </div>
+                    <!--地址连接-->
+                    <div class="aboutmeLinks">
+
+                        <a href="https://www.ccmsy.com/" class="btnDownload" target="_blank">个人博客</a>
+
+                        <a href="https://gitee.com/zzg5151/dashboard/projects" class="btnDownload" target="_blank">码云</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  技能掌握  -->
+    <section class="technical" id="technical">
+        <div class="container">
+            <div class="heading">
+                <h2 id="technical_title">技能</h2>
+                <p>作为一名开发人员，面对日新月异的技术，保持一种学习的习惯。目前我的技能以web开发这个技术栈为中心，以下是我的技能及掌握情况。</p>
+            </div>
+            <!--技能列表-->
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="85"><span
+                                class="percent"></span></span>
+                        <h4>Django、Flask、Tornado</h4>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="63"><span
+                                class="percent"></span></span>
+                        <h4>Linux</h4>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="75"><span
+                                class="percent"></span></span>
+                        <h4>Git</h4>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="70"><span
+                                class="percent"></span></span>
+                        <h4>MySQL、Redis、Mongodb</h4>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="70"><span
+                                class="percent"></span></span>
+                        <h4>requests、selenium、appnium</h4>
+                    </div>
+                </div>
+
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="70"><span
+                                class="percent"></span></span>
+                        <h4>fiddler、charles、mitmproxy</h4>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="70"><span
+                                class="percent"></span></span>
+                        <h4>xpath、re、pyquery</h4>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="70"><span
+                                class="percent"></span></span>
+                        <h4>Celery、rest_framework</h4>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="70"><span
+                                class="percent"></span></span>
+                        <h4>Nginx、supervisor、uWsgi</h4>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="70"><span
+                                class="percent"></span></span>
+                        <h4>pandas、numpy、matplotlib</h4>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="65"><span
+                                class="percent"></span></span>
+                        <h4>Vue、jQuery、Bootstrap</h4>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="60"><span
+                                class="percent"></span></span>
+                        <h4>Pytorch、TensorFlow</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--  工作经历  -->
+    <section class="exprience" id="exprience">
+        <div class="container">
+            <div class="heading">
+                <h2>经历</h2>
+                <p>2015年6月，毕业于长沙理工学院，从此开始了自己的后端开发工程师生涯。初入空门的时候自己还是一个职场新人，主要是在实际项目中不断学习，提升自己的后端开发技能和经验。如今所在单位：湖南潭州教育信息科技。我很喜欢沃趣积极向上、务实高效、学习氛围浓厚的工作环境，希望我和潭州一起成长。</p>
+            </div>
+
+            <div class="row workDetails">
+                <!-- 时间信息 -->
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                    <div class="workYear">
+                        <span class="prevY">2019-04</span>
+                        <span class="afterY">至今</span>
+                    </div>
+                </div>
+
+                <!--描述信息-->
+                <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                    <div class="arrowpart"></div>
+                    <div class="exCon">
+                        <h4>湖南潭州教育信息科技有限公司</h4>
+                        <h5>后端开发工程师</h5>
+                        <p>湖南潭州教育网络科技有限公司正式成立于2015年，公司地址在湖南省长沙市，是一家专门从事互联网的在线教育公司。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row workDetails">
+                <!-- 时间信息 -->
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                    <div class="workYear">
+                        <span class="prevY">2018-11</span>
+                        <span class="afterY">2019-03</span>
+                    </div>
+                </div>
+                <!--描述信息-->
+                <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                    <div class="arrowpart"></div>
+                    <div class="exCon">
+                        <h4>世束网络科技有限公司</h4>
+                        <h5>后端开发工程师</h5>
+                        <p>一家以新广告综合运营为风口的创业型公司，主要产品是广告投放系统设计</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row workDetails">
+                <!-- 时间信息 -->
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                    <div class="workYear">
+                        <span class="prevY">2015-09</span>
+                        <span class="afterY">2018-06</span>
+                    </div>
+                </div>
+                <!--描述信息-->
+                <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                    <div class="arrowpart"></div>
+                    <div class="exCon">
+                        <h4>广州浩轩科技有限公司</h4>
+                        <h5>开发工程师</h5>
+                        <p>一家政企服务公司,主要在智慧医疗、电子商务平台、车管所业务平台、驾校管理平台等领域</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 项目经验 -->
+    <section class="reffernces" id="reffernces">
+        <div class="container">
+            <div class="heading">
+                <h2>项目</h2>
+                <p>下面包括了自己的开源项目，公司项目，推荐的网站等。<br><b>出于职业道德和法律约束，项目无法展示，请见谅！</b></p>
+            </div>
+            <div class="row waterfall" data-col-min-width="300">
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+                    <div class="refBoxcon">
+                        <img src="/media/w.jpg" alt="">
+
+                    </div>
+                </div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+                    <div class="refBoxcon">
+                        <img src="/media/w.jpg" alt="">
+
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+                    <div class="refBoxcon">
+                        <img src="/media/w.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--联系我-->
+    <section class="contact" id="contact">
+        <div class="container topCon">
+            <div class="heading">
+                <h2>联系我</h2>
+            </div>
+        </div>
+    </section>
+    <!--联系方式-->
+    <section class="contactDetails">
+        <div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <p><i class="icon icon-envelope"></i><a>zzg58g@163.com</a></p>
+                <p><i class="icon icon-link"></i><a href="http://www.ccmsy.com/" target="_blank">http://www.ccmsy.com/</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="container">
+
+            <div style="text-align: center"><p>千里马常有而伯乐不常有，你会成为我的伯乐么？</p></div>
+            <!--回到顶部-->
+            <span class="totop"><i class="icon icon-chevron-up"></i></span>
+        </div>
+    </section>
+</div>
+
+<!------------------seo-baidu----------------->
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+<!---------------seo-360---------------->
+<script>
+    (function () {
+        var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?fca335b403c00338ac4edd15a7415d49" : "https://jspassport.ssl.qhimg.com/11.0.1.js?fca335b403c00338ac4edd15a7415d49";
+        document.write('<script src="' + src + '" id="sozz"><\/script>');
+    })();
+</script>
+
+<!--js代码-->
+<script src="https://me.lujianxin.com/js/jquery-2.1.4.min.js"></script>
+<script src="{% static 'js/m_05.js' %}"></script>
+<script src="{% static 'js/m_06.js' %}"></script>
+<script src="{% static 'js/m_07.js' %}"></script>
+<script type="text/javascript">
+    jQuery(function ($) {
+        $(document).ready(function () {
+            //enabling stickUp on the '.navbar-wrapper' class
+
+            $('.navbar-wrapper').stickUp({
+                parts: {
+                    0: 'wrapper',
+                    1: 'aboutme',
+                    2: 'technical',
+                    3: 'exprience',
+                    4: 'reffernces',
+                    5: 'contact'
+                },
+                itemClass: 'menuItem',
+                itemHover: 'active',
+                topMargin: 'auto'
+            });
+        });
+    });
+</script>
+<script src="{% static 'js/m_01.js' %}"></script>
+<script src="{% static 'js/m_02.js' %}"></script>
+<script src="{% static 'js/m_03.js' %}"></script>
+<script src="{% static 'js/m_04.js' %}"> </script>
+<script src="https://zz.bdstatic.com/linksubmit/push.js"></script>
+
+</body>
+
+</html>

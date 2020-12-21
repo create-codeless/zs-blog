@@ -1,0 +1,10 @@
+{# 右侧友情链接，仅个人主页 #}
+<div class="whitebg cloud">
+    <h2 class="htitle">友情链接</h2>
+    <ul>
+        {% for link in PERSON_LINKS %}
+            <a id="{{ link.link }}" href="{{ link.link }}?from={{ SITE.dns }}" title="{{ link.link_name }}" target="_blank">{{ link.link_name }}</a>
+        {% endfor %}
+    </ul>
+</div>
+

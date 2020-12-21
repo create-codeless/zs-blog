@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7392be7-c647-4c36-9937-1fd8c65cb0d4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/dj_site/simpleui" />
+  </component>
+  <component name="ProjectId" id="1k2td1VI8ZP5LE7enVpLqDjMZJb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dj_news" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\软件相关\python\code_out\centos\my_dj\dj_site\blog\templates\site" />
+      <recent name="D:\软件相关\python\code_out\centos\my_dj\dj_site\blog\templates\search" />
+      <recent name="D:\软件相关\python\code_out\centos\my_dj\dj_site\blog\templates" />
+      <recent name="D:\软件相关\python\code_out\centos\my_dj\dj_site\templates\search" />
+      <recent name="D:\软件相关\python\code_out\centos\my_dj\dj_site\static\image" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\软件相关\python\code_out\centos\my_dj\dj_site\static\image" />
+      <recent name="D:\软件相关\python\code_out\centos\my_dj\dj_site\blog\templatetags" />
+      <recent name="D:\软件相关\python\code_out\centos\my_dj\dj_site\static\css\font" />
+      <recent name="D:\软件相关\python\code_out\centos\my_dj\dj_site\media" />
+      <recent name="D:\软件相关\python\code_out\centos\my_dj\dj_site\blog\templates\site\base\left" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.yunrenxue">
+    <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_dj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jishu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_dj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/jishu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_dj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dj_site" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dj_site/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wenxue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_dj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/wenxue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="yunrenxue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_dj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/yunrenxue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.demo1" />
+      <item itemvalue="Python.yunrenxue" />
+      <item itemvalue="Python.jishu" />
+      <item itemvalue="Python.wenxue" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.yunrenxue" />
+        <item itemvalue="Python.wenxue" />
+        <item itemvalue="Python.jishu" />
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.demo1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7392be7-c647-4c36-9937-1fd8c65cb0d4" name="Default Changelist" comment="" />
+      <created>1604910597688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604910597688</updated>
+      <workItem from="1604910614640" duration="1117000" />
+      <workItem from="1604911733987" duration="140000" />
+      <workItem from="1604911920711" duration="1628000" />
+      <workItem from="1605334257942" duration="9000" />
+      <workItem from="1605342057161" duration="12162000" />
+      <workItem from="1605502296189" duration="53144000" />
+      <workItem from="1605680454099" duration="68474000" />
+      <workItem from="1605949582939" duration="1562000" />
+      <workItem from="1605969658853" duration="1425000" />
+      <workItem from="1606109831144" duration="23245000" />
+      <workItem from="1606141187106" duration="719000" />
+      <workItem from="1606144623846" duration="6000" />
+      <workItem from="1606144663537" duration="801000" />
+      <workItem from="1606197115707" duration="2355000" />
+      <workItem from="1606199659098" duration="1361000" />
+      <workItem from="1606202394964" duration="2445000" />
+      <workItem from="1606316535081" duration="611000" />
+      <workItem from="1606468147164" duration="7707000" />
+      <workItem from="1606543258528" duration="2261000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2459" y="56" width="816" height="698" key="#Deployment" timestamp="1604913866331">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2459" y="56" width="816" height="698" key="#Deployment/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604913866331" />
+    <state x="2299" y="136" key="#Options" timestamp="1605619181405">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="379" y="136" key="#Options/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605614916217" />
+    <state x="2299" y="136" key="#Options/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1605619181405" />
+    <state x="2334" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606197808120">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605342129109" />
+    <state x="2334" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606197808120" />
+    <state x="699" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605342637872">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="699" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605342637872" />
+    <state x="2610" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606203334387">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2610" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606203334387" />
+    <state width="859" height="466" key="DebuggerActiveHint" timestamp="1605780007940">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="859" height="466" key="DebuggerActiveHint/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1605780007940" />
+    <state x="2214" y="163" width="594" height="490" key="FileChooserDialogImpl" timestamp="1606543539703">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2214" y="163" width="594" height="490" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606543539703" />
+    <state width="1877" height="345" key="GridCell.Tab.0.bottom" timestamp="1606545536974">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605939394468" />
+    <state width="1877" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606545536974" />
+    <state width="1877" height="345" key="GridCell.Tab.0.center" timestamp="1606545536974">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="345" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605939394468" />
+    <state width="1877" height="345" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606545536974" />
+    <state width="1877" height="345" key="GridCell.Tab.0.left" timestamp="1606545536973">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="345" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605939394468" />
+    <state width="1877" height="345" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606545536973" />
+    <state width="1877" height="345" key="GridCell.Tab.0.right" timestamp="1606545536974">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="345" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605939394468" />
+    <state width="1877" height="345" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606545536974" />
+    <state width="1877" height="345" key="GridCell.Tab.1.bottom" timestamp="1606545536974">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="345" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605939394468" />
+    <state width="1877" height="345" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606545536974" />
+    <state width="1877" height="345" key="GridCell.Tab.1.center" timestamp="1606545536974">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="345" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605939394468" />
+    <state width="1877" height="345" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606545536974" />
+    <state width="1877" height="345" key="GridCell.Tab.1.left" timestamp="1606545536974">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="345" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605939394468" />
+    <state width="1877" height="345" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606545536974" />
+    <state width="1877" height="345" key="GridCell.Tab.1.right" timestamp="1606545536974">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="345" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605939394468" />
+    <state width="1877" height="345" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606545536974" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1606197817884">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606197817884" />
+    <state x="2133" y="101" width="998" height="748" key="SettingsEditor" timestamp="1606544234374">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="259" y="52" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1605342206379" />
+    <state x="2133" y="101" width="998" height="748" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606544234374" />
+    <state width="968" height="533" key="XDebugger.FullValuePopup" timestamp="1605778056264">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="968" height="533" key="XDebugger.FullValuePopup/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1605778056264" />
+    <state x="2560" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1605680453921">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2560" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1605680453921" />
+    <state x="2550" y="212" key="ftp.server.browser" timestamp="1604911417513">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2550" y="212" key="ftp.server.browser/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604911417513" />
+    <state x="2543" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1606128812747">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2543" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606128812747" />
+    <state x="2689" y="392" key="webDeployment.PermissionsDialog" timestamp="1604912088240">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2676" y="262" key="webDeployment.PermissionsDialog.Tabs" timestamp="1604911649010">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2676" y="262" key="webDeployment.PermissionsDialog.Tabs/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604911649010" />
+    <state x="2689" y="392" key="webDeployment.PermissionsDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604912088240" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/my_dj$jishu.coverage" NAME="jishu Coverage Results" MODIFIED="1606487158067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/my_dj$fff.coverage" NAME="fff Coverage Results" MODIFIED="1604912037208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_dj$manage.coverage" NAME="manage Coverage Results" MODIFIED="1606145484280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dj_site" />
+    <SUITE FILE_PATH="coverage/my_dj$demo.coverage" NAME="demo Coverage Results" MODIFIED="1605616759841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dj_site" />
+    <SUITE FILE_PATH="coverage/my_dj$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1606134773574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_dj$yunrenxue.coverage" NAME="yunrenxue Coverage Results" MODIFIED="1606545277125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/my_dj$wenxue.coverage" NAME="wenxue Coverage Results" MODIFIED="1606487847463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+  </component>
+</project>

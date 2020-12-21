@@ -1,0 +1,67 @@
+{# 导航条部分 #}
+<header id="header">
+    <div class="navbox">
+        <h2 id="mnavh"><span class="navicon"></span></h2>
+        <div class="logo"><a href="/">{{ SITE.name }}</a></div>
+        <nav>
+            <ul id="starlist">
+                <li><a href="/">首页</a></li>
+                <li class="menu">
+{#                      文学#}
+                    <ul class="sub">
+                        {% for cat in A_CATS %}
+                            <li><a data-id="{{ cat.id }}" href="javascript:void(0); ">{{ cat.cat }}</a></li>
+                        {% endfor %}
+                    </ul>
+                    <a href="javascript: void(0);" rel="nofollow">{{ a_cat }}</a>
+                </li>
+{#                技术干货#}
+
+                <li class="menu">
+                    <ul class="sub">
+                        {% for cat in B_CATS %}
+                            <li><a data-id="{{ cat.id }}" href="javascript:void(0); ">{{ cat.cat }}</a></li>
+                        {% endfor %}
+                    </ul>
+
+                    <a href="javascript: void(0);" rel="nofollow">{{ b_cat }}</a>
+                </li>
+                <li><a href="javascript: doing();" class="doing">专题系列</a></li>
+                <li><a href="javascript: doing();">留言板</a></li>
+                <li><a href="{{ SITE.me }}" target="_blank">关于我</a></li>
+                <li><a href="/api/link.html">友情链接</a></li>
+
+                {% if SITE.UPGRADING %}
+                    <li><a href="javascript: void(0);" id="upgrading">我要投稿</a></li>
+                {% else %}
+                    <li><a href="javascript: void(0);" id="tougao">我要投稿</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+
+     <!-- login start -->
+
+      <div class="login-box">
+          <div>
+              <i class="PyWhich py-user"></i>
+              <span>
+{#                  <a href="/api/login/" class="login">登录</a> / <a href="#" class="reg">注册</a>#}
+                  <a href="/api/login/" class="login">登录</a>
+              </span>
+          </div>
+          <div class="author hide">
+              <i class="PyWhich py-user"></i>
+              <span>qwertyui</span>
+              <ul class="author-menu">
+                  <li><a href="javascript:void(0);">后台管理</a></li>
+                  <li><a href="javascript:void(0);">退出登录</a></li>
+              </ul>
+          </div>
+      </div>
+    <!-- login end -->
+
+        <div class="searchico"></div>
+
+    </div>
+</header>
+

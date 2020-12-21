@@ -1,0 +1,65 @@
+{% extends 'site/base/base-search.html' %}
+
+{% load static %}
+
+{% block content %}
+        <!--广告-->
+    {% include 'site/base/left/ad-niu.html' %}
+
+   <div class="whitebg bloglist">
+      <h2 class="htitle">最新技术</h2>
+      <ul class="news-list">
+        {% for item in page %}
+        <li>
+          <h3 class="blogtitle"><a href="/" target="_blank">{{ item.title }}</a></h3>
+          <span class="blogpic imgscale"><i><a href="/">原创模板</a></i><a href="/" title=""><img src="{{ item.cover }}" alt=""></a></span>
+          <p class="blogtext">{{ item.digest }}</p>
+          <p class="bloginfo"><i class="avatar"><img src="{{ item.author.header }}"></i><span>{{ item.author.username }}</span><span>2018-10-28</span><span>【<a href="/">原创模板</a>】</span></p>
+          <a href="/api/{{ item.id }}/" class="viewmore">阅读更多</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+     <div class="pagenation">
+            {% if page.has_previous %}
+            <a href="/api/search?q={{ query }}&page={{ page.previous_page_number }}">上一页</a>
+            {% endif %}
+            {% for pindex in paginator.page_range %}
+                {% if pindex == page.number %}
+                    <a href="/api/search?q={{ query }}&page={{ pindex }}" class="active">{{ pindex }}</a>
+                {% else %}
+                    <a href="/api/search?q={{ query }}&page={{ pindex }}">{{ pindex }}</a>
+                {% endif %}
+            {% endfor %}
+            {% if page.has_next %}
+            <a href="/api//search?q={{ query }}&page={{ page.next_page_number }}">下一页></a>
+            {% endif %}
+        </div>
+
+
+{% endblock %}
+
+
+
+
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Title</title>#}
+{#</head>#}
+{#<body>#}
+{##}
+{#<p>搜索关键字:{{ query }}</p>#}
+{#<p>当前页page对象:{{ page }}</p>#}
+{#<p>分页对象:{{ paginator }}</p>#}
+{##}
+{#<ul>#}
+{#    {% for item in page %}#}
+{#      <li> {{ item.title }}</li>#}
+{#    {% endfor %}#}
+{#</ul>#}
+{##}
+{#</body>#}
+{#</html>#}

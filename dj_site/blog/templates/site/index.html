@@ -1,0 +1,24 @@
+{% extends 'site/base/base0.html' %}
+{% load static %}
+
+{% block content %}
+    <!-- 轮播图 -->
+    {% include 'site/base/left/banbox.html' %}
+     <!-- 右边广告 -->
+    {% include 'site/base/left/headline.html' %}
+    <div class="clearblank"></div>
+    <!-- 精彩鸡汤 -->
+    {% include 'site/base/left/jitang.html' %}
+    <!-- 广告 -->
+    {% include 'site/base/left/left-ad.html' %}
+       <!-- 文章列表 -->
+    {% include 'site/base/left/blog-list.html' %}
+{#    <a href="javascript:void(0);" class="btn-more">阅读更多</a>#}
+
+{% endblock %}
+
+
+{% block extra_js %}
+    <script type="text/javascript" src="{% static 'js/info_list.js' %}"></script>
+
+{% endblock %}

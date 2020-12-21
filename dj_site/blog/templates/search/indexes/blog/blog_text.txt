@@ -1,0 +1,5 @@
+{{ object.content }}
+{{ object.title }}
+{{ object.digest }}
+{{ object.author.username }}
+
